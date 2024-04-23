@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: azure;
+    font-size: large 100px;
+}
+
+#cadastrarApresenta{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+
+#consultaApresenta{
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+}

@@ -8,21 +8,23 @@
     </head>
 
     <body>
-        <form>
+        <form onsubmit=" return CadastrarUsuarios()"><!--tem que ter um botão dentro do form para eles se reconhecerem(o onsubmit=" return CadastrarUsuarios()"
+            trabalha em conjunto com o <button>Cadastrar</button>), vai o require em cada váriavel para que ele valide de acordo com o tipo de dado. 
+                É possível que seja aplicado outras validações de acordo com a necessídade, -->
             <p>Cadastro de usuários</p>
 
-            <input id="nome" type="text" placeholder="Nome completo">
+            <input required id="nome" type="text" placeholder="Nome completo">
 
-            <input id="nascimento" type="date" placeholder="Data de nascimento">
+            <input required id="nascimento" type="date" placeholder="Data de nascimento">
             <br/><br/>
-            <input id="email" type="email" placeholder="Email">
+            <input required id="email" type="email" placeholder="Email">
 
-            <input id="senha" type="password" placeholder="Adicione sua senha">
+            <input required id="senha" type="password" placeholder="Adicione sua senha">
+            <br/><br/>
+            <button>Cadastrar</button>
         </form>
-            <br/>
-            <button onclick="CadastrarUsuarios()">Cadastrar</button>
-            <br /><br />
             
+            <br /><br />
             <div id="tabelaCadastro"></div>
 
         <script src="script.js"></script>

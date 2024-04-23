@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-color: azure;
+}
+
+.buttonBuscar{
+    background-color: green;
+    width: 200px;
+    right: 200px;
+}
+
+.pesquisaInput{
+    width: 300px;
+}
