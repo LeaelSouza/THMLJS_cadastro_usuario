@@ -27,20 +27,21 @@
 
                 <input required id="nome" type="text" placeholder="Nome completo" minlength="3" maxlength="200">
 
-                <input required id="nascimento" type="date" placeholder="Data de nascimento">
+                    Data de nascimento:
+                    <input required id="nascimento" type="date" placeholder="Data de nascimento">
+                    <br/><br/>
+                        <input require id="CPF" type="text" placeholder="CPF" minlength="11" maxlength="11">
+                        
+                            <input required id="email" type="email" placeholder="Email">
 
-                <input require id="CPF" type="text" placeholder="CPF" minlength="11" maxlength="11">
-                <br/><br/>
-                <input required id="email" type="email" placeholder="Email">
+                                <div id="genero">
+                                    Gênero: 
+                                    <input type="radio" name="band-rock" value="masculino">Masculino
+                                    <input type="radio" name="band-rock" value="feminino">Feminino
+                                </div>
 
-                <div id="genero">
-                    Gênero: 
-                    <input type="radio" name="genero">Masculino
-                    <input type="radio" name="genero">Feminino
-                </div>
-
-                <br/>
-                <input required id="senha" type="password" placeholder="Adicione sua senha">
+                                <br/>
+                                    <input required id="senha" type="password" placeholder="Adicione sua senha">
                 
                 <br/><br/>
                 <button class="cadastrar">Cadastrar</button>
