@@ -3,18 +3,12 @@ body{
     background-color: gray;
 }
 
-.buttonBuscar{
-    background-color: green;
-    width: 200px;
-    right: 200px;
+.container{
+    border: 2px solid black;
+    background-color: #dcdcdc;
 }
 
-.pesquisaInput{
-    width: 300px;
-}
-
-
-.inicio{
+.cadastrarApresenta{
     border: 2px solid black;
     text-decoration: none;
     font-size: 25px;
@@ -28,6 +22,14 @@ body{
     text-decoration: none;
     font-size: 25px;
     padding: 5px;
-    background-color: yellow;
+    background-color: rgb(90, 197, 255);
     color: black;
+}
+
+.github{
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: black;
+    color: white;
 }

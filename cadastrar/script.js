@@ -36,8 +36,6 @@ function CadastrarUsuarios(){
             localStorage.setItem('pessoasCadastro', JSON.stringify(pessoasCadastradas));//JSON.stringify() - Pega o objeto e transforma em texto
             mostraPessoa(pessoa);
         
-        //Para zerar os dados que foram preenchidos no input
-        
         return false;
 }
 
