@@ -14,44 +14,45 @@
                 <form>
                     <p><h2>Tela de cadastros</h2></p>
                         
-                        <a class="inicio" href="../Apresenta/apresentacaoHTML.html">Apresentação</a>
+                        <a class="inicio" href="../Apresenta/apresentacaoHTML.html">Início</a>
         
                         <a class="consultaApresenta" href="../consulta/consultaUsuario.html">Consulta</a>
                 </form>
             </div>
 
-            <form onsubmit=" return CadastrarUsuarios()"><!--tem que ter um botão dentro do form para eles se reconhecerem(o onsubmit=" return CadastrarUsuarios()"
-                trabalha em conjunto com o <button>Cadastrar</button>), vai o require em cada váriavel para que ele valide de acordo com o tipo de dado. 
-                    É possível que seja aplicado outras validações de acordo com a necessídade, -->
+            <form onsubmit=" return CadastrarUsuarios()">
+                <!--tem que ter um botão dentro do form para eles se reconhecerem(o onsubmit=" return CadastrarUsuarios()"
+                trabalha em conjunto com o <button>Cadastrar</button>), vai o require em cada váriavel para que ele valide de 
+                acordo com o tipo de dado. É possível que seja aplicado outras validações de acordo com a necessídade, -->
+                
                 <h2>Cadastro de usuários</h2>
 
-                <input required id="nome" type="text" placeholder="Nome completo" minlength="3" maxlength="200">
+                    <input required id="nome" type="text" placeholder="Nome completo" minlength="3" maxlength="200">
 
-                    Data de nascimento:
-                    <input required id="nascimento" type="date" placeholder="Data de nascimento">
-                    <br/><br/>
-                        <input require id="CPF" type="text" placeholder="CPF" minlength="11" maxlength="11">
-                        
-                            <input required id="email" type="email" placeholder="Email">
+                        Data de nascimento:
+                        <input required id="nascimento" type="date" placeholder="Data de nascimento">
+                            <br/><br/>
+                            <input require id="CPF" type="text" placeholder="CPF" minlength="11" maxlength="11">
+                            
+                                <input required id="email" type="email" placeholder="Email">
 
-                                <div id="genero">
-                                    Gênero: 
-                                    <input type="radio" name="band-rock" value="masculino">Masculino
-                                    <input type="radio" name="band-rock" value="feminino">Feminino
-                                </div>
+                                    <br/><br/>
+                                    Gênero:
+                                    <select id="genero">
+                                        <option value="Masculino">Masculino</option>
+                                        <option value="Feminino">Feminino</option>
+                                    </select>
 
-                                <br/>
-                                    <input required id="senha" type="password" placeholder="Adicione sua senha">
-                
+                                        <input required id="senha" type="password" placeholder="Adicione sua senha">
+                    
                 <br/><br/>
                 <button class="cadastrar">Cadastrar</button>
             </form>
-        </div>
+        </div><!--Div container-->
             
             <br /><br />
             <div id="tabelaCadastro"></div>
-
-        <script src="script.js"></script>
+            <script src="script.js"></script>
 
         <footer>
             <a class="github" href="https://github.com/LeaelSouza/THMLJS_cadastro_usuario" target="_blank">Link de acesso ao Github</a>

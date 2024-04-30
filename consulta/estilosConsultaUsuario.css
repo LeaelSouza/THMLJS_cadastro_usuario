@@ -31,3 +31,34 @@ body{
     background-color: yellow;
     color: black;
 }
+
+.github{
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+
+.linha.par{
+    background-color: gray;
+}
+
+.linha.impar{
+    background-color: white;
+}
+
+.linha{
+    display: inline-block;
+    border: 1px dashed black;
+}
+
+.deletar{
+    text-decoration: none;
+    border: 3px solid black;
+    font-size: 25px;
+    padding: 5px;
+    background-color: Yellow;
+    color: black;
+}
