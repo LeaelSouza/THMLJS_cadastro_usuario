@@ -40,12 +40,11 @@ body{
     color: white;
 }
 
-
-.linha.par{
+.par{
     background-color: gray;
 }
 
-.linha.impar{
+.impar{
     background-color: white;
 }
 
